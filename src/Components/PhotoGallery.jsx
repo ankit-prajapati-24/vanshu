@@ -1,12 +1,19 @@
 import ScrollAnimation from 'react-animate-on-scroll';
 import i1 from '../images/Screenshot 2024-11-17 001310.jpg';
 import i2 from '../images/Screenshot 2024-11-17 001131.jpg';
-import i3 from '../images/Screenshot 2024-11-17 001214.jpg';
-import i4 from '../images/Screenshot 2024-11-17 001242.jpg';
-import i5 from '../images/Screenshot 2024-11-17 001310.jpg';
-import i6 from '../images/Screenshot 2024-11-17 001414.jpg';
-import i7 from '../images/Screenshot 2024-11-17 001439.jpg';
-import i8 from '../images/Screenshot 2024-11-17 001511.jpg';
+import i3 from '../images/Screenshot 2024-11-17 001242.jpg';
+import i4 from '../images/Screenshot 2024-11-17 001414.jpg';
+import i5 from '../images/Screenshot 2024-11-17 001439.jpg';
+import i6 from '../images/Screenshot 2024-11-17 001511.jpg';
+import i7 from '../images/Screenshot 2024-11-17 001511.jpg';
+import i8 from '../images/WhatsApp Image 2024-11-17 at 09.44.57_7ae078ee.jpg';
+import i9 from '../images/WhatsApp Image 2024-11-17 at 09.44.56_3d2e1afa.jpg';
+import i10 from '../images/WhatsApp Image 2024-11-17 at 09.44.56_00465d8e.jpg';
+import i11 from '../images/WhatsApp Image 2024-11-17 at 09.44.55_d58f959c.jpg';
+import i12 from '../images/WhatsApp Image 2024-11-17 at 09.44.55_8cec3488.jpg';
+import i13 from '../images/WhatsApp Image 2024-11-17 at 09.44.55_3c5c8a66.jpg';
+import i14 from '../images/WhatsApp Image 2024-11-17 at 09.44.54_9bd3422f.jpg';
+
 //SPAPS
 import s1 from '../images/IMG-20240220-WA0016.jpg';
 import s2 from '../images/IMG_20241031_235244_517.jpg';
@@ -20,18 +27,23 @@ import s9 from '../images/Snapchat-759470058.jpg';
 import s10 from '../images/Snapchat-713424546.jpg';
 
 const photos = [
-  { id: 1, src: i1, alt: 'Photo 1', caption: 'A beautiful girl in Traditional saree 💕' },
-  { id: 2, src: i2, alt: 'Photo 2', caption: 'wedding special 💘' },
-  { id: 3, src: i3, alt: 'Photo 3', caption: 'simple Girl with Dark humour 😅' },
-  { id: 4, src: i4, alt: 'Photo 4', caption: 'Fresh mornings ☀️' },
-  { id: 5, src: i5, alt: 'Photo 5', caption: 'Adventures await 🏞️' },
-  { id: 6, src: i6, alt: 'Photo 6', caption: 'A cozy moment with loved ones ❤️' },
+  { id: 1, src: i1, alt: 'Photo 1', caption: 'A beautiful girl in traditional saree 💕' },
+  { id: 2, src: i2, alt: 'Photo 2', caption: 'Wedding special 💘' },
+  { id: 3, src: i3, alt: 'Photo 3', caption: 'Simple girl with dark humor 😅' },
+  { id: 4, src: i4, alt: 'Photo 4', caption: 'Gulab ke haath mein gulab 🌹' },
+  { id: 5, src: i5, alt: 'Photo 5', caption: 'Husn Pari ✨' },
+  { id: 6, src: i6, alt: 'Photo 6', caption: 'Black and white beauty 🖤🤍' },
   { id: 7, src: i7, alt: 'Photo 7', caption: 'Lost in nature 🍃' },
-  { id: 8, src: i8, alt: 'Photo 8', caption: 'A new day, new beginnings 🌅' },
-  { id: 9, src: s4, alt: 'Photo 12', caption: 'My favorite ❤️😍 (yrr ye kitni cute hai)' },
-  { id: 10, src: s6, alt: 'Photo 14', caption: 'wife material ✨' },
-  { id: 11, src: s7, alt: 'Photo 15', caption: 'Beautiful chaos 🌸' },
-  { id: 12  , src: s8, alt: 'Photo 16', caption: 'Making memories together 📷' },
+  { id: 8, src: s4, alt: 'Photo 12', caption: 'My favorite ❤️😍 (Yrr ye kitni cute hai!)' },
+  { id: 9, src: s6, alt: 'Photo 14', caption: 'Wife material ✨' },
+  { id: 10, src: s7, alt: 'Photo 15', caption: 'Beautiful chaos 🌸' },
+  { id: 12, src: i8, alt: 'Photo 16', caption: 'Making memories together 📷' },
+  { id: 13, src: i9, alt: 'Photo 17', caption: 'Cherished moments 💖' },
+  { id: 14, src: i10, alt: 'Photo 18', caption: 'A day to remember 🌟' },
+  { id: 15, src: i11, alt: 'Photo 19', caption: 'Timeless vibes 🕰️' },
+  { id: 16, src: i12, alt: 'Photo 20', caption: 'Golden hour glow 🌞' },
+  { id: 17, src: i13, alt: 'Photo 21', caption: 'Candid smiles 😄' },
+  { id: 18, src: i14, alt: 'Photo 22', caption: ' cute moment with me 🙈' }
 ];
 
 const PhotoGallery = () => {
