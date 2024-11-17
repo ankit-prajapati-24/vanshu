@@ -205,3 +205,61 @@ img:hover{
     transform: translateY(-2px);
     
 }
+
+/* Base styles for body and responsive adjustments */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Sans-serif', Arial, Helvetica, sans-serif;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: 0.5rem;
+    }
+  }
+  
+  /* Utility classes */
+  .flex {
+    display: flex;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  /* Responsive Image Styling */
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+  }
+  
+  /* Responsive Padding */
+  .py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  
+  @media (max-width: 768px) {
+    .py-16 {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+    }
+  }
+  

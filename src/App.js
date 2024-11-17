@@ -14,7 +14,7 @@ const App = () => {
   }, []);
 
   return (
-    <div className="font-sans">
+    <div className="font-sans h-screen w-screen ">
       <Navbar />
       <HeroSection />
       <PhotoGallery />

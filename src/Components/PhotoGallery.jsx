@@ -36,7 +36,7 @@ const photos = [
 
 const PhotoGallery = () => {
   return (
-    <div id="gallery" className="bg-gray-900 py-16 text-white">
+    <div id="gallery" className="bg-gray-900 py-16 text-white overflow-y-auto">
       <h2 className="text-3xl font-bold text-center mb-8 text-pink-500">Photo Gallery</h2>
 
       {/* Photo Gallery Section */}
@@ -57,7 +57,7 @@ const PhotoGallery = () => {
               <img
                 src={photo.src}
                 alt={photo.alt}
-                className="w-full h-full max-w-[350px] max-h-[350px] object-cover rounded-md"
+                className="w-full h-full max-w-[300px] max-h-[300px] object-cover rounded-md"
               />
               <div className="text-center mt-2 text-lg font-medium text-pink-300">
                 {photo.caption}
